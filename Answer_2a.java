@@ -35,6 +35,7 @@ class Plane implements Vehicle{
 
     @Override
     public boolean has_gas() {
+      //as plane uses jet fuel which is liquid I guess so the answer is false.
         return false;
     }
 }
